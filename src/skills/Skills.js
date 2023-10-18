@@ -1,11 +1,14 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import Avatar from "../avatar/Avatar.js";
+import SkillsMenu from "./SkillsMenu.js";
 
-export default class Skills extends Component {
+export default class About extends Component {
   render() {
     return (
-      <div>
-        Skills
-      </div>
+      <>
+        <Avatar page="skills" />
+        <SkillsMenu />
+      </>
     )
   }
 }

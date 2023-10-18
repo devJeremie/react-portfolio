@@ -7,8 +7,8 @@ const PlayerStats = () => {
         <div id="playerStats">
             <h1>JEREMIE CHABANAIS LEVEL 41</h1>
             <div id="playerStats_lines">
-                <span id="player_lines_thick"></span>
-                <span id="player_lines_thin"></span>
+                <span id="playerStats_lines_thick"></span>
+                <span id="playerStats_lines_thin"></span>
             </div>
             <h2>Developpeur Fullstack</h2>
         </div>
