@@ -1,0 +1,8 @@
+@media (max-width: 700px) {
+    .menu {
+        width: 10rem;
+        top: 30%;
+        left: 50%;
+        transform: translateY(-50%);
+    }
+}
