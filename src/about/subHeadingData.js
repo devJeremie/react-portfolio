@@ -5,7 +5,7 @@ const subHeadingData = {
             content: (
                 <>
                     <p>
-                       A propos de moi a ecrire 
+                    My name is Jérémie Chabanais. I'm a developer Fullstack based in Bordeaux, France. I have developed front-end and backend for web or mobile applications on all platforms on numerous occasions. I am passionate about development and new technologies. 
                     </p>
                 </>
             ),
@@ -17,7 +17,7 @@ const subHeadingData = {
             content: (
                 <>
                     <p>
-                       Detaille un peu le parcours alternance 
+                    Junior developer within the Cassous group, I carried out front-end, back-end, existing bug resolution and improvement of the CRM in place, creation of two internal applications. 
                     </p>
                 </>
             ),
@@ -27,7 +27,7 @@ const subHeadingData = {
             content: (
                 <>
                     <p>
-                       Detaille un peu le parcours bac+2 
+                    Trainee developer I worked for the FirstRunner company, developing their internal site, back-end and front-end, under scrum methodology.
                     </p>
                 </>
             ),
@@ -39,7 +39,8 @@ const subHeadingData = {
             content: (
                 <>
                     <p>
-                       Detaille un peu le parcours boulot en alternance plus le reste apris a la maison 
+                    I carried out back end tasks in Java and Apex, the front in Javascript, more
+                    the creation of two applications in react and react native for the front and java on the back. 
                     </p>
                 </>
             ),
@@ -49,7 +50,7 @@ const subHeadingData = {
             content: (
                 <>
                     <p>
-                       Detaille un peu le parcours de ce que jai realise a la maison en appli et site
+                    I created various websites in html css and javascript for the front and php and symfony for the back, a sneaker ecommerce site, a site for a restaurant, and a site for an association.
                     </p>
                 </>
             ),
@@ -59,7 +60,7 @@ const subHeadingData = {
             content: (
                 <>
                     <p>
-                       Detaille un peu le parcours de ce que jai realise a la maison en appli et site en front
+                    I created web applications such as a web application for a sandwich shop, a hairdresser, and a pizzeria. 
                     </p>
                 </>
             ),
