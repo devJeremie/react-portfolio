@@ -49,7 +49,7 @@ export default function ContactMenu() {
             console.log('Email is sent successfully', response.text);
             setFormData(initialState);
             setErrors({})
-            setIsSent(false)
+            setIsSent(true)
         })
         .catch((error) => {
             console.error("Email sending failed", error);
@@ -136,7 +136,17 @@ export default function ContactMenu() {
                                 <span className='error-message'>{errors.message}</span>
                                )} 
                         </div>
+                        <button type='submit' disabled={isLoading}>
+                            {isLoading ? "SENDING..." : "SUBMIT"}
+                        </button>
                     </form>
+                )}
+                {isSent && (
+                    <div className='success-message'>
+                        <p>SUCCESS!</p>
+                        <p>Your message has been successfully sent!</p>
+                        <p>You can safely leave this page.</p>
+                    </div>
                 )}
         </div>
 }
