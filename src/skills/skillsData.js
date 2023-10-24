@@ -44,7 +44,7 @@ const skills = {
         },
         {
             title: "Symfony",
-            level: 4,
+            level: 3,
         },
         {
             title: "Git",
