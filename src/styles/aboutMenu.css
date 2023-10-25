@@ -125,7 +125,7 @@
         padding-right: 2.5rem;
     }
     .active-subHeading .p-container {
-        display: none;
+        font-size: 0.8rem;
     }
     .icon-title-container,
     .icon {
